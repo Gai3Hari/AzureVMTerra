@@ -1,4 +1,4 @@
-location = "Canada"
+location = "eastus"
 resourceGroupName = "myTerraformGroup"
 tags = {
   environment = "test"
