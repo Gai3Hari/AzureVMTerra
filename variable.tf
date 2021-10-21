@@ -8,9 +8,9 @@ variable "tags" {
  type=map(any)
 }
 variable "vnetname" {
-  type = String
+  type = string
 }
 variable "subnetname" {
-  type = String
+  type = string
 }
 
