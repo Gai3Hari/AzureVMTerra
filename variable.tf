@@ -7,4 +7,10 @@ variable "location"{
 variable "tags" {
  type=map(any)
 }
+variable "vnetname" {
+  type = String
+}
+variable "subnetname" {
+  type = String
+}
 
