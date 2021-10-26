@@ -16,6 +16,6 @@ variable "subnetname" {
 variable "ipaddressname" {
   type = string
 }
-variable = "nsgname" {
+variable "nsgname" {
   type = string
 }
