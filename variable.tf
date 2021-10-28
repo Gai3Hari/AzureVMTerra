@@ -24,5 +24,8 @@ variable "nicname" {
   type = string
 }
 variable = "VirtualMachineName" {
+ 
   type = string 
+  
 }
+
