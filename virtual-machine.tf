@@ -1,5 +1,5 @@
 
-resource "azurerm_linux_virtual_machine" "example" {
+resource "azurerm_linux_virtual_machine" "vm" {
   name                = var.virtualMachineName
   resource_group_name = azurerm_resource_group.myTerraformGroup.name
   location            = var.location
@@ -11,7 +11,7 @@ resource "azurerm_linux_virtual_machine" "example" {
 
   admin_ssh_key {
     username   = "adminuser"
-    public_key = tls_private_key.ssh-key.ssh-key.public_key_openssh
+    public_key = tls_private_key.ssh-key.public_key_openssh
   }
    os_disk {
     caching              = "ReadWrite"
