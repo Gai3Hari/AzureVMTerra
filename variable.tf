@@ -23,7 +23,7 @@ variable "nsgname" {
 variable "nicname" {
   type = string
 }
-variable = "VirtualMachineName" {
+variable = "virtualMachineName" {
  
   type = string 
   
