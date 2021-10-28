@@ -24,6 +24,7 @@ resource "azurerm_linux_virtual_machine" "example" {
     sku       = "18.04-LTS"
     version   = "latest"
   }
-}
+
 computer_name = var.virtualMachineName
 disable_password_authentication = true
+}
